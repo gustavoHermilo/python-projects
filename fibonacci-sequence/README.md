@@ -9,4 +9,4 @@ This program generates the Fibonacci sequence up to the Nth term.
 
 ## How to run
 ```bash
-python fibonacci.py
+fibonacci.py
