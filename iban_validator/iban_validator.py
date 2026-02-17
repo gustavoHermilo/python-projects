@@ -17,8 +17,10 @@ else:
             iban2+= ch
         else:
             iban2 += str(10+ ord(ch)- ord('A'))
-        iban = int(iban2)
-        if iban% 97==1:
+    iban = int(iban2)
+    if iban% 97==1:
             print("IBAN entered is valid.")
-        else:
+    else:
             print("IBAN entered is invalid.")
+    
+
